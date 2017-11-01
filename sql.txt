@@ -1,0 +1,7 @@
+create database company;
+use company;
+create table people (
+ id int(11) primary key auto_increment,
+ name varchar(30) not null,
+ email varchar(30) not null
+);
